@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ACHIEVEMENT</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #834c8e;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background:   #edd7ff;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:  #d7a7ff;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #668866;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>ACHIEVEMENT</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li>LIST OF ACHIEVEMENT</li>
+     
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Primary</h1>
+    <p>1st place in Speaking Competition</p>
+    <p>2nd place in English Speaking Competition</p>
+    <p>1st place in Volleyball Competition</p>
+    <p>2nd place in Basketball Competition</p>
+  </article>
+
+</section>
+
+<section>
+  <nav>
+    <ul>
+     
+     
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Secondary</h1>
+    <p>1st place in English Spelling Bee Competition</p>
+    <p>1st place in Building Tent Camping Competition</p>
+
+  </article>
+
+</section>
+
+</section>
+
+<section>
+  <nav>
+    <ul>
+     
+     
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Diploma</h1>
+    <p>Bronze Award in Citefest Competition</p>
+    <p>Silver Award in Business Innovation Competition</p>
+    <p>Dean's List Every Semester</p>
+    <p>Graduate Diploma with "Anugerah Naib Canselor</p>
+    
+  </article>
+
+</section>
+
+
+</body>
+</html>

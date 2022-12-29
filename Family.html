@@ -1,0 +1,122 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<title>FAMILY</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #8c523a;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+div {
+
+  width: 100%;
+  height: 100px; /* only for demonstration, should be removed */
+  background:   #ddbd9a;
+  padding: 0px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:  #dfdbda;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #668866;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>FAMILY PHOTO</h2>
+</header>
+
+<img src="together.jpg"  width="1285" height="700">
+
+<div class="FATHER">
+<h2>FATHER</h2>
+<p>AZEMAN BIN ELIAS</p>
+</div> 
+
+<div class="MOTHER">
+<h2>MOTHER</h2>
+<p>ROSLIDAWATI BINTI MAHMUD</p>
+</div>
+
+<div class="ELDER SISTER">
+<h2>ELDER SISTER</h2>
+<p>NUR ARIESYA QISTINA BINTI AZEMAN</p>
+</div>
+
+<div class="MYSELF">
+<h2>MYSELF</h2>
+<p>NUR ALYA BATRISYIA BINTI AZEMAN</p>
+</div>
+
+<div class="YOUNGER SISTER">
+<h2>YOUNGER SISTER</h2>
+<p>NUR ADLYN NAJWA BINTI AZEMAN</p>
+</div>
+
+<div class="YOUNGER BROTHER">
+<h2>YOUNGER BROTHER</h2>
+<p>MUHAMMAD ADAM DANISH BIN AZEMAN</p>
+</div>
+
+<div class="YOUNGER SISTER">
+<h2>YOUNGER SISTER</h2>
+<p>NUR AIRIES ALDARIYA BINTI AZEMAN</p>
+</div>
+
+</body>
+</html>
+
+
+
+
+
